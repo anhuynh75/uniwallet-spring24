@@ -4,6 +4,12 @@
     margin-left: auto; 
     margin-right: auto; 
     font-size: 20px;
+    color: azure;
+}
+
+body {
+    background-image: url(../img/daniel-leone-g30P1zcOzXo-unsplash.jpg);
+    background-size: cover;
 }
 
 .blog-grid.col-3 {
@@ -20,16 +26,23 @@
     margin: 0 10px 2em;
     display: inline-block;
     margin-bottom: 2em;
-    border-radius: 0 0 10px 10px;
+    border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(9, 32, 76, .035);
+    background-color: #13293D;
 }
+
+.blog-unit a:link, .blog-unit a:visited, .blog-unit a:hover, .blog-unit a:active { 
+    text-decoration: none; 
+} 
+
+
 
 .blog-unit img {
     width: 100%;
     max-width: 100%;
     height: auto;
     margin: auto;
-    border-radius: 10px 10px 0 0;
+    border-radius: 20px 20px 0px 0px;
 }
 
 .blog-content {
@@ -45,14 +58,14 @@
     margin: 0;
     font-size: 1.2em;
     font-weight: bold;
-    color: #333;
+    color: whitesmoke;
     text-decoration: none;
 }
 
 .blog-description {
     margin: 0;
     font-size: 1em;
-    color: #666;
+    color: whitesmoke;
 }
 
 @media screen and (min-width: 700px) {
