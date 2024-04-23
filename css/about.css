@@ -1,0 +1,14 @@
+.content {
+    padding-top: 200px;
+    height: 50px;
+    background-color: #01200F;
+}
+
+.content h1 {
+    padding-top: 100px;
+}
+
+.content h1, p {
+    padding-left: 100px;
+    padding-right: 100px;
+}

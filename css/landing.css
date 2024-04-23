@@ -1,0 +1,41 @@
+body {
+    background-image: url(../img/pawel-czerwinski-ERcQ81KaX9g-unsplash.jpg);
+    background-size: cover;
+}
+
+.container {
+    display: flex;
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    backdrop-filter: blur(5px);
+}
+
+.graphic img {
+    max-width: 800px;
+    height: 75%; 
+    float: right;
+    border-radius: 20px;
+}
+
+.content {
+    padding-left: 10%;
+    text-align: left;
+    color: white;
+}
+
+.content button {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.slogan {
+    font-size: 30px;
+    font-weight: 600;
+    width: 125%;
+}
+
+.tagline {
+    font-size: 18px;
+    font-weight: 400;
+}
